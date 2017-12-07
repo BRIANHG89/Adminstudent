@@ -1,0 +1,8 @@
+<?php
+
+
+    //
+	$conn = new mysqli('localhost', 'root', '', 'bdtesis') or die(mysqli_error());
+	if(!$conn){
+		die("Fatal Error: Connection Failed!");
+	}
